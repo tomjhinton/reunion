@@ -44,7 +44,11 @@ class Game extends React.Component{
     return (
       <div className="body">
         <div className='title'>
-
+        {this.state.board  &&  this.state.board.map((x, index) => {
+          return(
+            
+          )
+        })}
         </div>
 
       </div>
