@@ -9,7 +9,17 @@ class Game extends React.Component{
     super()
     this.state = {
       data: {},
-      error: ''
+      error: '',
+      board: [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
 
 
     }
@@ -46,7 +56,7 @@ class Game extends React.Component{
         <div className='title'>
         {this.state.board  &&  this.state.board.map((x, index) => {
           return(
-            
+
           )
         })}
         </div>
